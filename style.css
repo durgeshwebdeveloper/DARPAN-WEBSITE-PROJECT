@@ -1,0 +1,92 @@
+* {  padding: 0px; margin: 0px; box-sizing: border-box; }
+
+.website { height: 40px; width: 100%;}
+
+#head {background-color: #271c00; height: 40px; padding-top: 10px; width: 100vw;}
+
+#photo {height: 400px; overflow: hidden;margin: 10px;}
+
+#photo div {transition: all linear 1.8s; height: 1000px;}
+
+#photo div:hover {transform: translateY(-600px);}
+
+.about {background-color: #2c1f00;width: 100vw; height: 50px; display: flex;justify-content: 
+         center; align-items: center;gap: 35px;}
+
+.about a { color: rgb(145, 125, 44); font-weight: bold; text-decoration: none; font-size: 17px;}
+
+.about a:hover {color: #f2e1b5;}
+
+.information {height: 300px;}
+
+.information h1 {position: relative;left: 400px; padding: 20px;  color: #c2b171;font-size: 900;}
+
+.information p {  align-items: center;padding: 0px 30px 20px 30px;color: #ffedc4;  line-height: 1.7;font-size: larger;}
+
+.image {  background-color: #2c1f00;display: flex;justify-content: center;align-items: center;  height: 400px; width: 100vw;}
+
+img {  transition: all 0.5s linear;}
+
+.image img:hover {z-index: 99;  width: 600px; height: 800px;}
+
+.menu-bar {background-color: #2c1f00; color: white;height: 600px;width: 100vw;}
+
+#icon { height: 60px;width: 55px; background-color: #ffedbe;  padding: 20px 20px;  border: 1px 
+         solid transparent;border-bottom-left-radius: 45%;position: relative;left: 40px;top: 23px;}
+
+#icon i {color: #463101;height: 50px; width: 50px;}
+
+h3 {  color: #ffedbe;  margin: 50px;margin-left: 25px;font-size: 30px;}
+
+#para1 {  margin-left: 25px;  font-size: 18px;  line-height: 20px;  align-items: center;  color: #fff5b2;}
+
+#family {  position: relative;  bottom: 100px;  border-radius: 5%;  border-bottom-left-radius: 40%;}
+
+#paraphoto {  display: flex;  gap: 100px;  position: relative;  bottom: 20px;}
+
+.container { height: 830px;width: 100vw; background-color: #061f00;}
+
+.all {height: 50px;  width: 100vw;  display: flex;  align-items: center;  justify-content: center;  gap: 50px;}
+
+.all a {text-decoration: none; color: white;}
+
+#All {padding-top: 10px;}
+
+#style {color: white;display: grid;grid-template-columns: 470px 470px 470px;grid-template-rows: 350px 350px;
+             gap: 25px;  width: 100vw;position: relative; left: 30px;top: 20px;}
+
+
+.fashion {background-color: #201600; height: 500px;  width: 100vw;display: flex;justify-content: space-around;align-items: center;}
+
+.fashion .c4 image {  height: 100px;  width: 50px;  background-size: cover;}
+
+.fashion.c5 image {  height: 100px;  width: 50px;  background-size: cover;}
+
+.durgesh {  height: 390px;width: 100vw;  background-color: #061f00;}
+
+#paraa {  padding-top: 30px;  font-size: 40px;  word-spacing: 7px;  letter-spacing: 2px;}
+
+#parab {  padding-top: 20px;  font-size: 23px;  word-spacing: 3px;}
+
+#number {  display: flex;  align-items: center;  justify-content: center;  margin: 60px;  font-size: 20px;  gap: 250px;}
+
+.num h1 {  padding-left: 40px;  padding-bottom: 5px;  font-size: 60px;}
+
+.num1 h1 {  padding-left: 30px;  padding-bottom: 5px;  font-size: 60px;}
+
+.num2 h1 {  padding-left: 27px;  padding-bottom: 5px;  font-size: 60px;}
+
+.num3 h1 {  padding-left: 22px;  padding-bottom: 5px;  font-size: 60px;}
+
+.footer {  background-color: #061f00;  width: 100vw;height: 1400px;display: grid;justify-content: center;align-items: 
+          center;grid-template-columns: 650px 650px; gap: 20px;  row-gap: 10px;  align-items: center;padding-bottom: 50px;}
+
+.freq h1 {  letter-spacing: 2px;word-spacing: 5px;padding-top: 15px;}
+
+.footer-last {background-color: white;height: 100px; font-size: 20px;display: flex;align-items: center;justify-content: center;}
+
+.footer-last i {position: relative; left: 450px; padding-left: 5px;}
+
+.footer-last p a {color: yellow; text-decoration: none;}
+
+.footer-last p a:hover {color: yellowgreen;}
